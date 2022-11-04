@@ -29,7 +29,7 @@ You can set any CSS Selector to `tab-goto` or `shift-tab-goto` attribute to cont
 CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/tab-goto@0.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/tab-goto@0.1.1"></script>
 
 <input class="my-input" tab-goto="#my-div" />
 <button my-button tab-goto=".my-input" shift-tab-goto='[my-data="div1"]'>
@@ -63,7 +63,7 @@ CDN:
   my-div
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/tab-goto@0.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/tab-goto@0.1.1"></script>
 <script>
   window.tabGoto.config({
     tabGotoName: "my-tab-goto",
