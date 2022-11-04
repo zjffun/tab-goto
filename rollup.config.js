@@ -33,7 +33,7 @@ const configs = [
       banner: `/* tab-goto version ${version} */`,
       file: "dist/index.js",
       format: "umd",
-      name: "splitSplit",
+      name: "tabGoto",
       globals: {},
     }),
     plugins: [typescript()],
