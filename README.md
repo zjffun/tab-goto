@@ -1,6 +1,5 @@
 [![jsdelivr][jsdelivr-badge]][jsdelivr-link]
 [![npm version][fury-badge]][fury-link]
-[![test CI][test-badge]][test-link]
 [![codecov][codecov-badge]][codecov-link]
 
 # [tab-goto][tab-goto]
@@ -105,7 +104,5 @@ configTabGoto({
 [fury-badge]: https://badge.fury.io/js/tab-goto.svg
 [jsdelivr-link]: https://www.jsdelivr.com/package/npm/tab-goto
 [jsdelivr-badge]: https://data.jsdelivr.com/v1/package/npm/tab-goto/badge
-[test-badge]: https://github.com/zjffun/tab-goto/workflows/test%20CI/badge.svg
-[test-link]: https://github.com/zjffun/tab-goto/actions
 [codecov-badge]: https://codecov.io/gh/zjffun/tab-goto/branch/main/graph/badge.svg
 [codecov-link]: https://codecov.io/gh/zjffun/tab-goto
