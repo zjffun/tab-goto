@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tab-goto</title>
+    <link href="./tailwind.css" rel="stylesheet" />
+  </head>
+  <body class="bg-zinc-900">
+    <main class="flex items-center justify-center py-6 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-screen-lg w-full space-y-8">
+        <h1 class="text-zinc-100 text-4xl">tab-goto</h1>
+        <div id="vue-tab-goto-app">
+          <div class="my-4">
+            <h2 class="text-green-300 mb-2">With tab-goto</h2>
+            <form>
+              <div class="flex nowrap mb-2">
+                <div class="">
+                  <vscode-text-field
+                    tab-name
+                    name="name"
+                    value="[Tab 1]"
+                    shift-tab-goto="[tab-cancel]"
+                  >
+                    Name
+                  </vscode-text-field>
+                  <vscode-text-field name="prefix" value="[Tab 2]">
+                    Prefix
+                  </vscode-text-field>
+                  <vscode-text-field
+                    tab-scope
+                    name="scope"
+                    value="[Tab 3]"
+                    tab-goto="[tab-description]"
+                  >
+                    Scope
+                  </vscode-text-field>
+                </div>
+                <div style="flex: 1 1 0"></div>
+                <div class="">
+                  <vscode-button
+                    tab-save
+                    tab-goto="[tab-cancel]"
+                    shift-tab-goto="[tab-body]"
+                  >
+                    [Tab 6] Save
+                  </vscode-button>
+                  <vscode-button tab-cancel tab-goto="[tab-name]">
+                    [Tab 7] Cancel
+                  </vscode-button>
+                </div>
+              </div>
+              <div class="mb-2">
+                <vscode-text-field
+                  tab-description
+                  shift-tab-goto="[tab-scope]"
+                  class="w-full"
+                  name="description"
+                  value="[Tab 4]"
+                >
+                  Description
+                </vscode-text-field>
+              </div>
+              <div class="mb-2">
+                <vscode-text-area
+                  tab-body
+                  class="w-full"
+                  resize="vertical"
+                  name="body"
+                  value="[Tab 5]"
+                  tab-goto="[tab-save]"
+                >
+                  Body
+                </vscode-text-area>
+              </div>
+            </form>
+          </div>
+
+          <div class="my-4">
+            <h2 class="text-red-300 mb-2">Without tab-goto</h2>
+            <form>
+              <div class="flex nowrap mb-2">
+                <div class="">
+                  <vscode-text-field name="name" value="[Tab 1]">
+                    Name
+                  </vscode-text-field>
+                  <vscode-text-field name="prefix" value="[Tab 2]">
+                    Prefix
+                  </vscode-text-field>
+                  <vscode-text-field name="scope" value="[Tab 3]">
+                    Scope
+                  </vscode-text-field>
+                </div>
+                <div style="flex: 1 1 0"></div>
+                <div class="">
+                  <vscode-button> [Tab 4] Save </vscode-button>
+                  <vscode-button> [Tab 5] Cancel </vscode-button>
+                </div>
+              </div>
+              <div class="mb-2">
+                <vscode-text-field
+                  class="w-full"
+                  name="description"
+                  value="[Tab 6]"
+                >
+                  Description
+                </vscode-text-field>
+              </div>
+              <div class="mb-2">
+                <vscode-text-area
+                  class="w-full"
+                  resize="vertical"
+                  name="body"
+                  value="[Tab 7]"
+                >
+                  Body
+                </vscode-text-area>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="//cdn.jsdelivr.net/npm/@vscode/webview-ui-toolkit@1.1.0/dist/toolkit.js"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/tab-goto@0.1.0/dist/index.min.js"></script>
+  </body>
+</html>
