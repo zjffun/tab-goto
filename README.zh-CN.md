@@ -4,13 +4,13 @@
 
 # [tab-goto][tab-goto]
 
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
-Control where `Tab` or `Shift+Tab` goto.
+控制按下 `Tab` 或 `Shift+Tab` 后聚焦的元素。
 
 ![tab-goto](images/tab-goto.webp)
 
-## Installation
+## 安装
 
 npm:
 
@@ -24,9 +24,9 @@ Yarn:
 yarn add tab-goto
 ```
 
-## Usage
+## 使用
 
-You can set any CSS Selector to `tab-goto` or `shift-tab-goto` attribute to control where `Tab` or `Shift+Tab` goto. We use [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) internally to find the element to focus.
+你可以为 `tab-goto` 或 `shift-tab-goto` 属性设置任何 CSS 选择器来控制按下 `Tab` 或者 `Shift+Tab` 后聚焦的元素。我们内部会使用 [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) 寻找要聚焦的元素。
 
 CDN:
 
@@ -50,9 +50,9 @@ import "tab-goto";
 
 ### `config(options)`
 
-The `config()` function is used to configure tab goto uses attribute names and enable/disable tab goto.
+`config()` 函数用来配置 tab goto 使用的属性名和启用/禁用聚焦到设置的元素。
 
-#### Example
+#### 例子
 
 CDN:
 
@@ -89,15 +89,15 @@ configTabGoto({
 });
 ```
 
-#### Parameters
+#### 参数
 
-- `options` (`Object`) - The options object.
-  - `tabGotoName` (`string`) - The attribute name of tab goto. Default: `tab-goto`.
-  - `shiftTabGotoName` (`string`) - The attribute name of shift tab goto. Default: `shift-tab-goto`.
-  - `enableTabGoto` (`boolean`) - Whether enable tab goto. Default: `true`.
-  - `enableShiftTabGoto` (`boolean`) - Whether enable shift tab goto. Default: `true`.
+- `options` (`Object`) - 选项对象。
+  - `tabGotoName` (`string`) - 按下 `Tab` 读取的属性的名称。默认值：`tab-goto`。
+  - `shiftTabGotoName` (`string`) - 按下 `Shift+Tab` 读取的属性的名称。默认值: `shift-tab-goto`。
+  - `enableTabGoto` (`boolean`) - 是否启用按下 `Tab` 聚焦到设置的元素。默认值: `true`。
+  - `enableShiftTabGoto` (`boolean`) - 是否启用按下 `Shift+Tab` 聚焦到设置的元素。默认值: `true`。
 
-## [Release Notes](./CHANGELOG.md)
+## [更新日志](./CHANGELOG.md)
 
 <!-- Definitions -->
 
