@@ -1,0 +1,137 @@
+[
+  {
+    "id": "599ttck2tz",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      1,
+      3
+    ],
+    "toRange": [
+      1,
+      3
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "imzfy9aw2s",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      5,
+      11
+    ],
+    "toRange": [
+      5,
+      11
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "mjg6qkuuxi",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      13,
+      25
+    ],
+    "toRange": [
+      13,
+      25
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "p2hoydu9c0",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      27,
+      47
+    ],
+    "toRange": [
+      27,
+      47
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "sp7pwx3ror",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      49,
+      49
+    ],
+    "toRange": [
+      49,
+      49
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "xeeb6jja5r",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      51,
+      53
+    ],
+    "toRange": [
+      51,
+      53
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "ovnk15df01",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      55,
+      90
+    ],
+    "toRange": [
+      55,
+      90
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "zjuaeajlzg",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      92,
+      98
+    ],
+    "toRange": [
+      92,
+      98
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  },
+  {
+    "id": "dk0huotyle",
+    "fromPath": "README.md",
+    "toPath": "README.zh-CN.md",
+    "fromRange": [
+      100,
+      110
+    ],
+    "toRange": [
+      100,
+      110
+    ],
+    "fromGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5",
+    "toGitRev": "5028b0e9afc3e4c4870161616f02f51f78b9f6f5"
+  }
+]
