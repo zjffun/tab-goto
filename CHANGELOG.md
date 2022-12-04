@@ -1,7 +1,3 @@
-# [TODO]
-
-# [Unreleased]
-
 # v0.1.1
 
 - Fix bug umd output name.
